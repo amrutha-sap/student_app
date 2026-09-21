@@ -1,0 +1,6 @@
+studentID,name,address,email,mobile,age,gender
+STU001,John Doe,123 Elm St,john.doe@email.com,555-0101,20,Male
+STU002,Jane Smith,456 Oak Ave,jane.smith@email.com,555-0102,21,Female
+STU003,Alex Jones,789 Pine Rd,alex.jones@email.com,555-0103,19,Non-binary
+STU004,Sam Wilson,321 Maple Dr,sam.wilson@email.com,555-0104,22,Male
+STU005,Emily Davis,654 Cedar Ln,emily.davis@email.com,555-0105,20,Female
