@@ -28,3 +28,22 @@ Content-type:application/json
 ###Delete Record
 DELETE http://localhost:4004/odata/v4/student-api/StudentSet('STU005') 
 
+### Composition examplese
+POST http://localhost:4004/odata/v4/student-api/AuthorSet
+Content-type:application/json
+
+{
+      "name": "John Doe",
+      "books": [
+       {
+             "name":"SAP Book",
+             "title" : "BTP Book",
+             "publishedOn": "10-02-2026"
+      },
+       {
+             "name":"SAP Book1",
+             "title" : "BTP Book1",
+             "publishedOn": "10-02-2026"
+      }
+]
+}
