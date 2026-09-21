@@ -25,3 +25,10 @@ entity Courses:cuid,managed {
         duration : Integer;
 
 }
+
+entity Address{
+    key addressId: Integer;
+    description: String(100);
+    city: String;
+    country: String;
+}
